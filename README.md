@@ -12,7 +12,7 @@
 
 
 ~~~
-docker build -t maho/wepapl-11:1.0 .
+docker build -t maho/webapl-11:1.0 .
 ~~~
 
 
@@ -33,7 +33,7 @@ docker run -it -p 3000:3000 maho/webapl-11:1.0
 
 ~~~
 docker login
-docker push -t maho/webapl-11:1.0
+docker push maho/webapl-11:1.0
 ~~~
 
 
